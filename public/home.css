@@ -1,0 +1,27 @@
+form {
+  display: flex;
+  justify-items: center;
+  color: blueviolet;
+}
+form input {
+  width: 100%;
+  margin: 10px 0px 0px;
+  padding: 5px 10px;
+  border: solid 2px blueviolet;
+}
+form div {
+  margin: 70px auto;
+  width: 500px;
+}
+
+form button {
+  background-color: blueviolet;
+  color: white;
+  padding: 7px 20px;
+  margin: 10px 0px;
+  border: none;
+}
+
+.red {
+  border: red solid 1px;
+}

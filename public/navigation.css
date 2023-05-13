@@ -1,0 +1,27 @@
+body {
+  margin: 0px;
+}
+
+nav {
+  padding: 20px 0px;
+  background-color: blueviolet;
+}
+
+nav ul {
+  display: flex;
+  gap: 1 rem;
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  color: aqua;
+}
+
+li {
+  margin: 0px 20px;
+}

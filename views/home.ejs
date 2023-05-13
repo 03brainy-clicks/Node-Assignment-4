@@ -1,0 +1,16 @@
+<%- include("./includes/start.ejs") %>
+<link rel="stylesheet" href="home.css" />
+<title>Home</title>
+</head>
+<body>
+<%- include("./includes/nav.ejs") %>
+
+<form action="/" method="POST">
+  <div>
+    <label for="user">Username</label> <br />
+    <input type="text" name="user" placeholder="Username" required />
+    <button>Add User</button>
+  </div>
+</form>
+
+<%- include("./includes/end.ejs") %>
